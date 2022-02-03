@@ -151,6 +151,11 @@ body {
 }
 
 
+.section-3 .row img {
+    margin: auto;
+}
+
+
 
 
 
@@ -171,26 +176,9 @@ body {
     }
 
 
-
     /* jumbotron */
     .jumbotron img {
         margin-top: 60px;
     }
 
-}
-
-
-
-@media screen and (max-width: 1000px) {
-
-    /* section 3 */
-
-    .section-3 {
-        text-align: center;
-    }
-
-
-    .section-3 img {
-        display: none;
-    }
 }
