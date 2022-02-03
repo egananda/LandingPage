@@ -34,7 +34,7 @@ body {
 
 .nav-item .nav-link {
     color: rgb(48, 48, 48);
-    font-weight: bold;
+    /* font-weight: bold; */
     transition: 0.3s;
 }
 
@@ -46,7 +46,7 @@ body {
 
 
 .dropdown-menu .dropdown-item {
-    font-weight: bold;
+    /* font-weight: bold; */
     transition: 0.3s;
 }
 
