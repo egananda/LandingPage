@@ -14,7 +14,7 @@
 body {
     font-family: "Google-Sans";
     font-size: 18px;
-    height: 2200px;
+    height: 3000px;
 }
 
 
@@ -157,6 +157,35 @@ body {
 
 
 
+/* section 4 */
+.section-4 {
+    margin-top: 180px;
+}
+
+
+.section-4 .card {
+    width: 300px;
+    margin: 10px auto;
+    padding: 50px 0;
+    transition: 0.3s;
+}
+
+
+.section-4 .card:hover {
+    box-shadow: 15px 15px 10px #eeee;
+    transform: scale(1.04);
+}
+
+
+.section-4 .card .card-link {
+    /* margin: auto; */
+    background-color: #008B8B;
+    color: #fff;
+}
+
+
+
+
 
 
 
@@ -181,4 +210,13 @@ body {
         margin-top: 60px;
     }
 
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+    .section-4 .card {
+        margin: 10px auto;
+    }
 }
