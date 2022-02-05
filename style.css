@@ -14,7 +14,6 @@
 body {
     font-family: "Google-Sans";
     font-size: 18px;
-    height: 3000px;
 }
 
 
@@ -182,6 +181,15 @@ body {
 .card .card-body .btn {
     background-color: #008B8B;
     color: #fff;
+}
+
+
+
+/* footer */
+footer {
+    margin-top: 200px;
+    background-color: rgb(20, 21, 29);
+    color: rgb(179, 179, 179);
 }
 
 
