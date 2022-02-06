@@ -11,11 +11,17 @@
 }
 
 
+@font-face {
+    font-family: "Product-sans-light";
+    src: url(assets/fonts/ProductSans-Light.woff);
+}
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Google-Sans" !important;
-    font-size: 18px;
+    font-size: 20px !important;
 }
 
 
@@ -161,6 +167,7 @@ body {
 /* section 4 */
 .section-4 {
     margin-top: 180px;
+    margin-bottom: 280px;
 }
 
 
@@ -189,11 +196,51 @@ body {
 
 /* footer */
 footer {
-    margin-top: 200px;
-    margin-bottom: 0;
-    background-color: rgb(201, 201, 201);
-    color: rgb(56, 56, 56);
+    font-family: "Product-sans-light" !important;
+    margin: 0 200px;
+    background-color: rgb(18, 21, 26);
+    color: rgb(230, 230, 230);
     width: 100%;
+    font-weight: normal;
+    padding: 30px 70px !important;
+}
+
+
+
+
+footer .row {
+    display: flex;
+    justify-content: center !important;
+}
+
+
+footer h1 {
+    text-transform: uppercase;
+}
+
+
+
+
+footer ul li {
+    margin: 16px 0;
+    font-size: 0.9em;
+}
+
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+footer ul li a:hover {
+    color: #008B8B;
+}
+
+
+footer .row span {
+    padding-top: 20px;
 }
 
 
@@ -220,6 +267,12 @@ footer {
     /* jumbotron */
     .jumbotron img {
         margin-top: 60px;
+    }
+
+
+    /* footer */
+    footer .col-lg-4 {
+        margin: 30px 0;
     }
 
 }
